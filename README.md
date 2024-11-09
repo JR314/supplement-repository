@@ -17,8 +17,6 @@ tcp_unpack.py: It holds the main function and responsible for extracting the for
 tcp_management.py: It responsible for recording and managing all connections among the .cap file
 tcp_connection.py: It responsible for managing the information of each single connection
 packet_struct.py: It includes all the classes for supporting the oriented-programming extracting the .cap files
-(the packet_struct.py file provided through the brightspace, and the professor allowed us to import and directly use it)
-
 
 Input
 A .cap file (e.g., sample-capture-file.cap) that includes packet data from multiple TCP connections.
